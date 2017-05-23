@@ -1,12 +1,92 @@
-
-/*
-html,body, header, div{
+@font-face {
+  font-family: "proxima-nova-soft";
+  font-style: normal;
+  src: url("https://use.typekit.net/af/b5823a/00000000000000000001743c/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff2"), url("https://use.typekit.net/af/b5823a/00000000000000000001743c/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff"), url("https://use.typekit.net/af/b5823a/00000000000000000001743c/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("opentype");
+}
+* {
+  font-family: "proxima-nova-soft";
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+header {
+  height: 100px;
+}
+.content-header{
+  height: 560px;
+  background-size: cover;
+}
+.style-img-nav{
+  display: block;
+  width: 90px;
+  height: 45px;
+  padding: 0;
+}
+.style-list-nav{
+  text-decoration: none;
+  padding-top: 20px;
+  color: white;
+  letter-spacing: 0.8px;
+  font-weight: bold;
+}
+.icon-user-style{
+  border: solid 2px white;
+  border-radius: 50px;
+  padding: 8px;
+}
+.style-titulo-header {
+  font-size: 60px;
+  font-weight: bold;
+  color: white;
+}
+.style-sub-titulo{
+  color: white;
+  padding-top: 20px;
+  padding-bottom: 50px;
+  font-weight: bold;
+  font-size: 20px;
+}
+.titulo-header{
+  top: 90px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.icons-introduction{
+  position: relative;
+  min-height: 100%;
   height: 100%;
+  width: 100%;
+
 }
-*/
-.height{
-height: 8 00px;
+.icon--hero-park {
+  bottom: 280px;
+  left: 250px;
+  position: relative;
+    width: 260px;
+    height: 316px;
+    display: inline-block;
 }
+.icon--hero{
+  bottom: 930px;
+  left: 250px;
+  position: relative;
+  width: 1525px;
+  height: 650px;
+  background-position: center;
+  background-size: cover;
+  display: inline-block;
+}
+.icon--hero-bench{
+  width: 148px;
+  height: 66px;
+  display: inline-block;
+  position: relative;
+  left: 930px;
+  bottom: 290px;
+}
+/**/
 .style-icon-section-1 {
   height: 175px;
   width: 175px;
