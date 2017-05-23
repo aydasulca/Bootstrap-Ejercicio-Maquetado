@@ -36,3 +36,6 @@
 .icon-twitter-with-circle:before {
   content: "\e904";
 }
+.icon-checkmark:before {
+  content: "\e903";
+}
